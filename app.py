@@ -1,7 +1,6 @@
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
-from flask_pymongo import PyMongo
-from flask_pymongo import MongoClient
+from pymongo import MongoClient
 from datetime import datetime
 cluster = MongoClient("mongodb+srv://jai:jai@cluster0.eo1ij.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = cluster["bakery"]
