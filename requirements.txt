@@ -1,5 +1,5 @@
 flask
 twilio
-pyMango
+pymango
 dnspython
 gunicorn
